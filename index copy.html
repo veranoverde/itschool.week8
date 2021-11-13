@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        .header {
+            margin-top: 100px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        .guy {
+            width: 60%;
+        }
+
+        .main {
+            margin-top: 100px;
+            padding: 20px;
+        }
+
+        .btn-buy {
+            background-color: rgb(100, 25, 238);
+            color: white;
+            border-radius: 25px;
+            font-weight: bolder;
+            margin: 50px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: flex-start;
+            width: 90%;
+        }
+
+        .nav-item {
+            padding: 5px;
+            color: rgb(100, 25, 238);
+        }
+
+        .opportunities {
+            margin-bottom: 50px;
+            margin-top: 50px;
+
+        }
+
+        .card-title {
+            font-weight: bolder;
+        }
+
+        .form-group {
+            background-image: url(assets/images/Rectangle12.svg);
+            font-weight: bolder;
+            color: white;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col logo">
+                <img src="assets/images/logo.svg" alt="logo"></div>
+
+            <div class="col basket">
+                <img src="assets/images/button-cart.svg" alt="basket">
+            </div>
+        </div>
+        <div class="row main">
+            <div class="col-sm-4 blocktext">
+                <h1>ВИРТУАЛЬНАЯ РЕАЛЬНОСТЬ БЕЗ ПРОВОДОВ</h1>
+                <p>Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих
+                    комьютеров.</p>
+                <button type="button" class="btn btn-buy btn-lg">КУПИТЬ</button>
+            </div>
+            <div class="col-sm-8">
+                <img class="guy" src="assets/images/pic.png" alt="guy">
+            </div>
+            <nav class="menu">
+                <span class="nav-item">Возможности</span>
+                <span class="nav-item">Где купить</span>
+                <span class="nav-item">Доставка</span>
+                <span class="nav-item">Помощь</span>
+            </nav>
+            <div class="row">
+                <div class="col opportunities">
+                    <h1>ВОЗМОЖНОСТИ</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="width: 30rem;">
+                    <img class="card-img-top" src="assets/images/praktikum.jpg" alt="guy">
+                    <div class="card-body">
+                        <h5 class="card-title">БЕЗ ПРОВОДОВ</h5>
+                        <p class="card-text">Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни
+                            большое помещение, чтобы расставить трекеры.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 30rem;">
+                    <img class="card-img-top" src="assets/images/Illustration_2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">БЕЗ КОМПЬЮТЕРА</h5>
+                        <p class="card-text">Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш
+                            шлем запускает игры из облака, поэтому просто наслаждайтесь.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 30rem;">
+                    <img class="card-img-top" src="assets/images/Illustration_9.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">ДО 10 ЧАСОВ РАБОТЫ</h5>
+                        <p class="card-text">Несмотря на компактность и производительность, шлем может работать до 10
+                            часов — даже, если вы играете в самые ресурсоемкие игры..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">СОТНИ ИГР</h5>
+                        <p class="card-text">Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до
+                            маленьких независимых проектов. Скоро их станет еще больше.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">ПОЧТИ ДАРОМ</h5>
+                        <p class="card-text">По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы
+                            существенно экономите на мощном компьютере.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 form">
+                <form>
+                    <div class="form-group" style="width: 30rem">
+                        <label for="exampleInputEmail1">НОВОСТИ</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted"></small>
+
+                        <button type="submit" class="btn btn-buy btn-lg">ПОДПИСАТЬСЯ</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
