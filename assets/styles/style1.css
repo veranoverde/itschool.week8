@@ -1,0 +1,33 @@
+.header {
+    background-color: rgb(58, 57, 57);
+    color: white;
+    border-radius: 15px 15px 0 0;
+  }
+  .logo {
+    padding: 10px;
+  }
+    .nav { 
+      display: flex;
+      justify-content: flex-end;
+      
+    }
+    .nav__item {
+      padding: 5px;
+      justify-content: flex-end;
+      
+    }
+    .block1 {
+        background-color: rgb(197, 192, 192);
+        margin-bottom: 10px;
+    }
+    .btn {
+        margin-bottom: 20px;
+    }
+    .footer {
+      background-color: rgb(58, 57, 57);
+      border-radius: 0 0 15px 15px;
+      height: 10vh;
+      justify-content: center;
+      color: white;
+      padding: 20px;
+    }
